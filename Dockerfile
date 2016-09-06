@@ -2,9 +2,9 @@ FROM ubuntu:latest
 MAINTAINER eric@scheier.org
 
 # Install cron
-RUN apt-get update
-RUN apt-get install cron
-RUN apt-get install wget
+RUN apt-get -y update
+RUN apt-get -y install cron
+RUN apt-get -y install wget
 
 # Add crontab file in the cron directory
 ADD crontab /etc/cron.d/simple-cron
