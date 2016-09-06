@@ -17,7 +17,7 @@ RUN chmod 0644 /etc/cron.d/simple-cron
 
 # Download and install minergate-cli
 ADD https://minergate.com/download/deb-cli .
-RUN sudo dpkg -i deb-cli
+RUN dpkg -i deb-cli
 
 # Run the command on container startup
 CMD ./script.sh
