@@ -38,3 +38,6 @@ To change the actual job performed just change the content of the *script.sh* fi
 
 
 `echo "$(date): executed script" >> /var/log/cron.log 2>&1`
+
+## On Raspberry Pi
+https://medium.com/a-swift-misadventure/how-to-setup-your-raspberry-pi-2-3-with-ubuntu-16-04-without-cables-headlessly-9e3eaad32c01
